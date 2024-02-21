@@ -21,4 +21,4 @@ This is a simple Age Calculator project built using HTML, CSS, and JavaScript. I
 3. Select your date of birth using the date picker.
 4. Your age will be calculated and displayed automatically.
 
-![Age Calculator Interface](Age Calculator.jpg)
+![Age Calculator Interface](image/Age_Calculator.jpg)
