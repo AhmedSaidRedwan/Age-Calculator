@@ -2,12 +2,14 @@ const inputElements = document.querySelectorAll(".card__input");
 const submetBotton = document.querySelector(".card__button");
 
 const validateDay = (day) => {
-  if (day && day > 0 && day <= 31) {
+  const currentDay = new Date().getDate();
+  if (day && day > 0 && day <= currentDay) {
     return true;
   }
 };
 const validateMonth = (month) => {
-  if (month && month > 0 && month <= 12) {
+  const currentMonth = new Date().getMonth();
+  if (month && month > 0 && month <= currentMonth + 1) {
     return true;
   }
 };
